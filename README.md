@@ -82,8 +82,6 @@ npm run test:headed
 ![add-task-4-final](https://github.com/user-attachments/assets/1d0a9c6f-7700-447a-b8cb-bd8f634a20ad)
 ![delete-task-1-added](https://github.com/user-attachments/assets/182898b8-ba7d-49d3-b8ab-aaa77a55f93d)
 ![delete-task-2-after-delete](https://github.com/user-attachments/assets/28617d81-b07c-4819-94fb-b560d979df5f)
-![delete-task-3-final](https://github.com/user-attachments/assets/386dbbb7-e521-471b-9ad3-251d5f6a9fdc)
-
 
 ## APIエンドポイント
 
