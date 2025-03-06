@@ -11,6 +11,16 @@ module.exports = defineConfig({
   use: {
     baseURL: 'http://localhost:9000',
     trace: 'on-first-retry',
+    // スクリーンショットの設定
+    screenshot: {
+      mode: 'on',
+      fullPage: true,
+    },
+    // ビデオを録画
+    video: {
+      mode: 'retain-on-failure',
+      size: { width: 1280, height: 720 }
+    },
   },
 
   projects: [
