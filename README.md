@@ -73,13 +73,17 @@ npm run test:headed
 - タスクの削除
 
 ## テストキャプチャ
-![add-task-1-initial](https://github.com/user-attachments/assets/0a9a5e3a-4cd1-4abf-b8bf-47e543de7fe6)
-![add-task-2-input](https://github.com/user-attachments/assets/07c14da2-42e1-4f76-b449-0ff88f4c8c09)
-![add-task-3-after-add](https://github.com/user-attachments/assets/804b1bc0-5e80-44e5-957a-d6bebbe2b9b4)
-![delete-task-3-final](https://github.com/user-attachments/assets/a3379d60-9b14-4738-aa0d-57c9ec39c85f)
-![delete-task-2-after-delete](https://github.com/user-attachments/assets/d250f7ca-d2b0-47ad-9b77-b0f4b9a4b650)
-![delete-task-1-added](https://github.com/user-attachments/assets/3e29f5a9-6ca3-47c2-9088-24028ef248ea)
-![complete-task-3-final](https://github.com/user-attachments/assets/dbe5f6cb-5fe2-49f5-a1ea-eb6bc9c7d219)
+![complete-task-1-added](https://github.com/user-attachments/assets/4a90ab52-c402-47aa-84a6-adf657681f86)
+![complete-task-2-clicked](https://github.com/user-attachments/assets/2b1a9569-33dd-4cdd-9d3b-b07a13d2be00)
+![complete-task-3-final](https://github.com/user-attachments/assets/c6d5b682-6c5a-4fd0-bf3f-9785f2762055)
+![add-task-1-initial](https://github.com/user-attachments/assets/aaece09d-8a81-4e4f-a155-12ca23a7ce62)
+![add-task-2-input](https://github.com/user-attachments/assets/3b6ad522-0255-4fe5-9e2e-72f55a50ffbc)
+![add-task-3-after-add](https://github.com/user-attachments/assets/be7a5357-c732-4a6d-bc18-ef45f18db0ec)
+![add-task-4-final](https://github.com/user-attachments/assets/1d0a9c6f-7700-447a-b8cb-bd8f634a20ad)
+![delete-task-1-added](https://github.com/user-attachments/assets/182898b8-ba7d-49d3-b8ab-aaa77a55f93d)
+![delete-task-2-after-delete](https://github.com/user-attachments/assets/28617d81-b07c-4819-94fb-b560d979df5f)
+![delete-task-3-final](https://github.com/user-attachments/assets/386dbbb7-e521-471b-9ad3-251d5f6a9fdc)
+
 
 ## APIエンドポイント
 
