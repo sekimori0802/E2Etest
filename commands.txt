@@ -1,0 +1,38 @@
+# アプリケーション実行コマンド
+
+## 1. バックエンドの起動
+```
+cd C:\Apps\E2Etest\backend
+mvn spring-boot:run
+```
+
+## 2. フロントエンドの起動
+```
+cd C:\Apps\E2Etest\frontend
+npm start
+```
+
+# Playwrightテスト実行コマンド
+
+## 1. ヘッドレスモードでテスト実行（ブラウザ非表示）
+```
+cd C:\Apps\E2Etest\frontend
+npm test
+```
+
+## 2. ヘッドモードでテスト実行（ブラウザ表示）
+```
+cd C:\Apps\E2Etest\frontend
+npm run test:headed
+```
+
+## 3. テストレポートの表示
+```
+cd C:\Apps\E2Etest\frontend
+npx playwright show-report
+```
+
+注意事項：
+- バックエンドとフロントエンドは別々のターミナルで実行してください
+- テストを実行する前に、バックエンドとフロントエンドの両方が起動している必要があります
+- テストレポートは http://localhost:9323 でブラウザに表示されます
