@@ -1,38 +1,72 @@
 # アプリケーション実行コマンド
 
 ## 1. バックエンドの起動
-```
-cd C:\Apps\E2Etest\backend
-mvn spring-boot:run
+```powershell
+# 環境変数の設定（管理者権限のPowerShellで実行）
+# システムのプロパティ → 環境変数から以下を設定
+# 1. JAVA_HOME = C:\Program Files\Microsoft\jdk-17
+# 2. Pathに C:\Program Files\Microsoft\jdk-17\bin を追加
+# 設定後、PowerShellを再起動
+
+# バックエンドディレクトリに移動してSpring Bootアプリケーションを起動
+Set-Location 'C:\Apps\E2Etest\backend'
+.\mvnw.cmd spring-boot:run
 ```
 
 ## 2. フロントエンドの起動
-```
-cd C:\Apps\E2Etest\frontend
+```powershell
+# フロントエンドディレクトリに移動
+Set-Location 'C:\Apps\E2Etest\frontend'
+
+# 依存関係のインストール（初回のみ）
+npm install
+
+# アプリケーションの起動
 npm start
 ```
 
 # Playwrightテスト実行コマンド
 
 ## 1. ヘッドレスモードでテスト実行（ブラウザ非表示）
-```
-cd C:\Apps\E2Etest\frontend
+```powershell
+Set-Location 'C:\Apps\E2Etest\frontend'
 npm test
 ```
 
 ## 2. ヘッドモードでテスト実行（ブラウザ表示）
-```
-cd C:\Apps\E2Etest\frontend
+```powershell
+Set-Location 'C:\Apps\E2Etest\frontend'
 npm run test:headed
 ```
 
 ## 3. テストレポートの表示
-```
-cd C:\Apps\E2Etest\frontend
+```powershell
+Set-Location 'C:\Apps\E2Etest\frontend'
 npx playwright show-report
 ```
 
 注意事項：
 - バックエンドとフロントエンドは別々のターミナルで実行してください
+- バックエンドは http://localhost:9000 で起動します（APIエンドポイント）
+- フロントエンドも http://localhost:9000 で起動します（静的ファイルの配信）
 - テストを実行する前に、バックエンドとフロントエンドの両方が起動している必要があります
 - テストレポートは http://localhost:9323 でブラウザに表示されます
+
+開発環境のセットアップ：
+1. Java 17のインストール（必須）
+```powershell
+winget install Microsoft.OpenJDK.17
+```
+
+2. Node.jsのインストール（必須）
+```powershell
+winget install OpenJS.NodeJS.LTS
+```
+
+3. 必要なツールのインストール
+```powershell
+npm install -g http-server
+npm install -g @playwright/test
+```
+
+※ バックエンドの実行にはJava 17のみが必要です。環境変数の設定を忘れずに行ってください。
