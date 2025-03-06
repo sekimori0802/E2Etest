@@ -80,9 +80,7 @@ npm run test:headed
 ![delete-task-2-after-delete](https://github.com/user-attachments/assets/d250f7ca-d2b0-47ad-9b77-b0f4b9a4b650)
 ![delete-task-1-added](https://github.com/user-attachments/assets/3e29f5a9-6ca3-47c2-9088-24028ef248ea)
 ![complete-task-3-final](https://github.com/user-attachments/assets/dbe5f6cb-5fe2-49f5-a1ea-eb6bc9c7d219)
-![complete-task-2-clicked](https://github.com/user-attachments/assets/1ce986c2-4edb-4877-9237-8aa79f351f88)
-![complete-task-1-added](https://github.com/user-attachments/assets/d5b7873d-a53f-4534-a56e-8864d14119cc)
-![add-task-4-final](https://github.com/user-attachments/assets/6eafb6cc-2da8-43eb-8913-7825320d0def)
+
 ## APIエンドポイント
 
 - GET /api/tasks - 全タスクの取得
